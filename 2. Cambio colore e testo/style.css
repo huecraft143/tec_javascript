@@ -1,0 +1,20 @@
+.contenitore {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .paragrafo {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .classe-base {
+    color: black;
+  }
+  
+  .classe-attiva {
+    color: red;
+  }
+  
