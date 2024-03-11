@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <title>Little Meteo</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="text-center mt-3">
+                <h1 class="h1">Little Meteo</h1>
+                <p class="p">Inserisici la città di cui vuoi visualizzare il meteo adesso</p>
+                <input type="text" placeholder="Inserisci la città" class="form-control input_text" id="cityInput">
+                <button class="btn btn-primary submit" id="submitButton">Ricerca città</button>
+            </div>
+        </div>
+        <div class = "container">
+            <div class="mt-5">
+                <div class="card" id="weatherCard">
+                    <h1 class="card-title name" id="name"></h1>
+                    <p class="card-text temp"></p>
+                    <p class="card-text clouds"></p>
+                    <p class="card-text desc"></p>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
