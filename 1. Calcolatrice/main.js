@@ -7,6 +7,7 @@ function sommaValore() {
     var primo = parseFloat(primoNumero.value);
     var secondo = parseFloat(secondoNumero.value);
     var somma = primo + secondo;
+    var differenza = primo - secondo;
   
     document.getElementById('somma').value = somma;
   }
